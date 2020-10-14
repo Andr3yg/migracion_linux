@@ -136,9 +136,17 @@ Es tiempo de jugar y de disfrutar
  ![Alt text](./imagenes/steam2_steam.png)
 
 ## Discord
-Discord es una aplicación freeware de VoIP y chat por texto. Discord está disponible para Microsoft Windows, MacOS, Android, iOS y Linux. Tiene la posibilidad de ser usado desde un cliente ejecutable o también puede ser usado desde el navegador. Para instalar Discord en nuestro Linux debemos ir a la siguiente página [Discord]https://discord.com/download "Discord") y darle a descargar para Linux (nos va a detectar que sistema operativo tenemos)
+Discord es una aplicación freeware de VoIP y chat por texto. Discord está disponible para Microsoft Windows, MacOS, Android, iOS y Linux. Tiene la posibilidad de ser usado desde un cliente ejecutable o también puede ser usado desde el navegador. Para instalar Discord en nuestro Linux debemos ir a la siguiente página [Discord](https://discord.com/download) y darle a descargar para Linux (nos va a detectar que sistema operativo tenemos). Vamos a descargar el archivo DEB, nativo para Debian.
 ![Alt text](./imagenes/discord0.png)
-
+Una vez tenemos el **discord.deb** en nuestra carpeta de descargars debemos abrir nuestra consola y dirigirnos a la carpeta. Usaremos comandos basicos como cd (change directory), ejemplo: **cd ~/Descargas**. Una vez allí vamos a verificar que tenemos nuestro archivo, por lo que listamos el contenido en ese directorio (**ls**). Una vez sepamos el nombre exacto del archivo, vamos a ejecutar el siguiente comando:
+1. sudo dpkg -i nombre_aplicacion_discord.deb
+![Alt text](./imagenes/discord2.png)
+Una vez lo ejecutemos nos pedirá nuestra contraseña, la ponemos y damos enter. Lo más probable es que te salgan errores de dependencias, estos errores son comunes no te preocupes. Si tienes errores de dependencias lo que debes ejecutar despues de haber ejecutado el paso uno, es:
+2. sudo apt -f install
+Con el comando anterior vamos a resolver errores de dependencias que faltan. Si ya está todo correcto solo debemos esperar a que se termine de ejecutar (no demora mucho), y buscamos en nuestro menu: discord. Lo ejecutamos y listo ¡Ya tienes Discord instalado!
+![Alt text](./imagenes/discord3.png)
+![Alt text](./imagenes/discrodinstalled.png)
+![Alt text](./imagenes/discordu.png)
 
 Hasta aquí ha llegado este post, espero que sea de mucha ayuda para ti, que estás iniciando en el mundo de Linux. Recuerda que no debes tener miedo por migrar, existen muchas comunidades de Linux en Facebook, Telegram, etc. Que te podrían ayudar a solucionar cualquier problema. También puedes consultar en foros, donde tal vez ya se haya dado solución al error que tienes. Mucha suerte en tu camino ninja!
 
