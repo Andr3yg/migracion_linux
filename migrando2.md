@@ -134,9 +134,11 @@ Ahora solo debemos crear una cuenta o entrar con una existente, tal y como se mu
 Es tiempo de jugar y de disfrutar
 
  ![Alt text](./imagenes/steam2_steam.png)
-#
-Hasta aquí ha llegado este post, espero que sea de mucha ayuda para ti, que estás iniciando en el mundo de Linux. Recuerda que no debes tener miedo por migrar, existen muchas comunidades de Linux en Facebook, Telegram, etc. Que te podrían ayudar a solucionar cualquier problema. También puedes consultar en foros, donde tal vez ya se haya dado solución al error que tienes. Mucha suerte en tu camino ninja!
-#
-Grupo de Parrot OS: https://t.me/ParrotSpanishGroup
 
-Grupo de Parrot OS School: https://t.me/ParrotSecSchool
+## Discord
+Discord es una aplicación freeware de VoIP y chat por texto. Discord está disponible para Microsoft Windows, MacOS, Android, iOS y Linux. Tiene la posibilidad de ser usado desde un cliente ejecutable o también puede ser usado desde el navegador. Para instalar Discord en nuestro Linux debemos ir a la siguiente página [Discord]https://discord.com/download "Discord") y darle a descargar para Linux (nos va a detectar que sistema operativo tenemos)
+![Alt text](./imagenes/discord0.png)
+
+
+Hasta aquí ha llegado este post, espero que sea de mucha ayuda para ti, que estás iniciando en el mundo de Linux. Recuerda que no debes tener miedo por migrar, existen muchas comunidades de Linux en Facebook, Telegram, etc. Que te podrían ayudar a solucionar cualquier problema. También puedes consultar en foros, donde tal vez ya se haya dado solución al error que tienes. Mucha suerte en tu camino ninja!
+
